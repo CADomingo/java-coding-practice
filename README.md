@@ -1,20 +1,20 @@
 # ☕ Java Coding Practice
 
-A collection of Java programming exercises focused on strengthening **Core Java fundamentals**, **logical thinking**, and **problem-solving skills** through continuous learning and technical interview preparation.
+A collection of Java programming exercises focused on **Core Java fundamentals**, **logical problem-solving**, and **technical coding practice**.
 
-This repository documents my hands-on Java coding practice as I work through programming concepts and exercises.
+This repository contains hands-on implementations of commonly used programming concepts and coding problems, with a focus on writing clear, understandable, and maintainable Java solutions.
 
 ---
 
 ## 🎯 Purpose
 
-The purpose of this repository is to:
+This repository is maintained to:
 
-* Strengthen Core Java programming fundamentals
-* Improve logical thinking and problem-solving skills
-* Practice commonly asked Java coding questions
-* Build confidence for technical coding interviews
-* Maintain a structured record of continuous learning
+* Practice Core Java programming concepts
+* Strengthen logical and analytical problem-solving skills
+* Implement common coding patterns and programming exercises
+* Explore different approaches to solving problems
+* Maintain a structured collection of Java coding examples
 
 ---
 
@@ -40,9 +40,9 @@ The purpose of this repository is to:
 
 ---
 
-## 📁 Current Project Structure
+## 📁 Project Structure
 
-```text
+```text id="h0z0m3"
 java-coding-practice/
 │
 ├── README.md
@@ -97,13 +97,11 @@ java-coding-practice/
 
 ---
 
-# 🚀 Future Learning Roadmap
+# 🚀 Planned Topics
 
-This repository will continue to grow as additional Java concepts and coding exercises are completed.
+Additional exercises and implementations will be added across the following areas.
 
 ## 🔤 String Programs
-
-Planned exercises include:
 
 * Reverse String
 * Reverse Words
@@ -113,7 +111,7 @@ Planned exercises include:
 
 ---
 
-## 📊 Advanced Array Programs
+## 📊 Array Programs
 
 * Find Largest Number
 * Find Second Largest Number
@@ -134,8 +132,6 @@ Planned exercises include:
 
 ## 📦 Java Collections
 
-Planned topics include:
-
 * ArrayList Examples
 * LinkedList Examples
 * HashSet Examples
@@ -146,8 +142,6 @@ Planned topics include:
 
 ## 🧩 Object-Oriented Programming
 
-Planned concepts include:
-
 * Classes and Objects
 * Encapsulation
 * Inheritance
@@ -157,53 +151,43 @@ Planned concepts include:
 
 ---
 
-## ☕ Advanced Java Concepts
-
-Future topics will include:
+## ☕ Java Features and Concepts
 
 * Exception Handling
 * Java Collections Framework
-* Java 8 Features
 * Lambda Expressions
 * Functional Interfaces
 * Stream API
 
 ---
 
-## 🧠 Problem Solving and Interview Preparation
+## 🧠 Problem Solving
 
-The repository will gradually include exercises related to:
+Future implementations will also cover:
 
-* Common Java Interview Questions
+* Common Java Coding Questions
+* Logical Programming Problems
 * Data Structures
 * Algorithmic Problem Solving
-* Coding Challenges
-* Logical Programming Problems
+* Technical Coding Exercises
 
 ---
 
-## 📈 Learning Approach
+## 📌 Approach
 
-Each exercise in this repository follows a simple learning process:
+Each exercise focuses on:
 
-```text
-Learn → Understand → Practice → Improve → Commit
-```
-
-The focus is not only on finding a working solution but also on understanding:
-
-* How the logic works
-* Why a particular approach is used
-* Alternative ways to solve the problem
-* How to improve code readability
+* Understanding the problem
+* Developing a logical solution
+* Writing clean and readable code
+* Exploring alternative approaches where applicable
+* Improving code clarity and maintainability
 
 ---
 
-## 📌 Repository Status
+## 🔄 Repository Updates
 
-🚧 **Actively Learning and Expanding**
-
-New programs and concepts will be added progressively as part of my Java learning journey and technical interview preparation.
+This repository is continuously updated with additional Java coding exercises and problem-solving implementations.
 
 ---
 
@@ -211,7 +195,9 @@ New programs and concepts will be added progressively as part of my Java learnin
 
 **Clifford Austin Domingo**
 
-Quality Engineering Specialist with experience in:
+Quality Engineering Specialist
+
+**Areas of Expertise:**
 
 * Test Automation
 * API Testing
@@ -223,4 +209,4 @@ Quality Engineering Specialist with experience in:
 
 ---
 
-⭐ **This repository represents an ongoing learning journey. Each program is added progressively as new concepts are practiced and understood.**
+⭐ **A structured collection of Java coding exercises and problem-solving implementations.**
