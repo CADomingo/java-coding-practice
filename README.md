@@ -1,12 +1,24 @@
 # ☕ Java Coding Practice
 
-A collection of Java programming exercises focused on strengthening **core Java fundamentals**, **logical thinking**, and **problem-solving skills** for technical interviews and continuous learning.
+A collection of Java programming exercises focused on strengthening **Core Java fundamentals**, **logical thinking**, and **problem-solving skills** through continuous learning and technical interview preparation.
 
-This repository contains basic Java programs covering arrays, numerical operations, variable manipulation, and pattern-based problems.
+This repository documents my hands-on Java coding practice as I work through programming concepts and exercises.
 
 ---
 
-## 📚 Topics Covered
+## 🎯 Purpose
+
+The purpose of this repository is to:
+
+* Strengthen Core Java programming fundamentals
+* Improve logical thinking and problem-solving skills
+* Practice commonly asked Java coding questions
+* Build confidence for technical coding interviews
+* Maintain a structured record of continuous learning
+
+---
+
+## 📚 Current Topics Covered
 
 ### 📊 Arrays
 
@@ -28,9 +40,9 @@ This repository contains basic Java programs covering arrays, numerical operatio
 
 ---
 
-## 📁 Project Structure
+## 📁 Current Project Structure
 
-```text id="wr7tyq"
+```text
 java-coding-practice/
 │
 ├── README.md
@@ -60,7 +72,7 @@ java-coding-practice/
 | # | Program              | Category |
 | - | -------------------- | -------- |
 | 1 | Adjacent Array       | Arrays   |
-| 2 | Compare Array        | Arrays   |
+| 2 | Compare Arrays       | Arrays   |
 | 3 | Sort Array           | Arrays   |
 | 4 | Sum of Elements      | Arrays   |
 | 5 | Fibonacci Series     | Numbers  |
@@ -71,50 +83,127 @@ java-coding-practice/
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies and Concepts
 
-* **Java**
+* Java
 * Core Java
-* Arrays
-* Loops
+* Variables and Data Types
 * Conditional Statements
-* Basic Problem Solving
+* Loops
+* Arrays
+* Basic Mathematical Operations
+* Pattern Programming
+* Problem Solving
 
 ---
 
-## 🎯 Purpose
+# 🚀 Future Learning Roadmap
 
-This repository is maintained to strengthen Java programming fundamentals and improve problem-solving skills for technical interviews.
+This repository will continue to grow as additional Java concepts and coding exercises are completed.
 
-The exercises focus on understanding fundamental programming concepts and writing clean, readable Java code.
+## 🔤 String Programs
+
+Planned exercises include:
+
+* Reverse String
+* Reverse Words
+* Palindrome Check
+* Count Characters
+* Find Duplicate Characters
 
 ---
 
-## 🚀 Future Additions
+## 📊 Advanced Array Programs
 
-The repository will be expanded with additional exercises covering:
+* Find Largest Number
+* Find Second Largest Number
+* Remove Duplicates
+* Find Missing Number
+* Merge Arrays
 
-* String Manipulation
-* Arrays and Collections
-* Object-Oriented Programming
+---
+
+## 🔢 Number Programs
+
+* Factorial
+* Armstrong Number
+* Palindrome Number
+* Perfect Number
+
+---
+
+## 📦 Java Collections
+
+Planned topics include:
+
+* ArrayList Examples
+* LinkedList Examples
+* HashSet Examples
+* HashMap Examples
+* Find Duplicates Using Set
+
+---
+
+## 🧩 Object-Oriented Programming
+
+Planned concepts include:
+
+* Classes and Objects
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Abstraction
+* Interfaces
+
+---
+
+## ☕ Advanced Java Concepts
+
+Future topics will include:
+
 * Exception Handling
 * Java Collections Framework
 * Java 8 Features
-* Streams and Lambda Expressions
-* Data Structures
-* Algorithmic Problem Solving
+* Lambda Expressions
+* Functional Interfaces
+* Stream API
 
 ---
 
-## 📌 Learning Approach
+## 🧠 Problem Solving and Interview Preparation
 
-Each program is created with a focus on:
+The repository will gradually include exercises related to:
 
-* Understanding the problem
-* Developing logical solutions
-* Writing clean and readable code
-* Improving programming fundamentals
-* Preparing for Java technical interviews
+* Common Java Interview Questions
+* Data Structures
+* Algorithmic Problem Solving
+* Coding Challenges
+* Logical Programming Problems
+
+---
+
+## 📈 Learning Approach
+
+Each exercise in this repository follows a simple learning process:
+
+```text
+Learn → Understand → Practice → Improve → Commit
+```
+
+The focus is not only on finding a working solution but also on understanding:
+
+* How the logic works
+* Why a particular approach is used
+* Alternative ways to solve the problem
+* How to improve code readability
+
+---
+
+## 📌 Repository Status
+
+🚧 **Actively Learning and Expanding**
+
+New programs and concepts will be added progressively as part of my Java learning journey and technical interview preparation.
 
 ---
 
@@ -122,8 +211,16 @@ Each program is created with a focus on:
 
 **Clifford Austin Domingo**
 
-Quality Engineering Specialist | Test Automation | API Testing | Performance Testing | Cloud | GenAI
+Quality Engineering Specialist with experience in:
+
+* Test Automation
+* API Testing
+* Performance Testing
+* Identity and Access Management
+* AWS Cloud-Native Testing
+* Generative AI
+* Quality Engineering
 
 ---
 
-⭐ **This repository will continue to grow as additional Java coding exercises and interview problems are added.**
+⭐ **This repository represents an ongoing learning journey. Each program is added progressively as new concepts are practiced and understood.**
