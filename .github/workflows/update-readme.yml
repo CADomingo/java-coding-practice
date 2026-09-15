@@ -10,17 +10,28 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-readme-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   sync-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Sync with latest branch
+        run: |
+          git fetch origin "${GITHUB_REF_NAME}"
+          git rebase "origin/${GITHUB_REF_NAME}"
 
       - name: Generate README from src
         run: python .github/scripts/update_readme.py
@@ -35,4 +46,13 @@ jobs:
             exit 0
           fi
           git commit -m "chore: sync README with Java programs"
-          git push
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed; rebasing onto the latest remote commit."
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+          done
+          echo "Unable to push README update after 3 attempts."
+          exit 1
