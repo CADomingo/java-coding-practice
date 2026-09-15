@@ -17,32 +17,32 @@ This repository is maintained to:
 * Maintain a structured collection of Java coding examples
 
 ---
-
 ## 📚 Current Topics Covered
 
-### 📊 Arrays
-
-* Adjacent Array Operations
+### Arrays
+* Adjacent Array
 * Compare Arrays
+* Eliminate Duplicate
+* Min and Max Number
 * Sort Array
 * Sum of Elements
 
-### 🔢 Number Programs
-
+### Numbers
 * Fibonacci Series
-* Prime Number Validation
+* Prime Number
 * Multiplication Table
 * Swap Variables
 
-### 🔺 Pattern Programs
+### Strings
+* Reverse String
 
+### Patterns
 * Pyramid Pattern
 
 ---
-
 ## 📁 Project Structure
 
-```text id="h0z0m3"
+```text
 java-coding-practice/
 │
 ├── README.md
@@ -52,37 +52,44 @@ java-coding-practice/
     ├── arrays/
     │   ├── AdjacentArray.java
     │   ├── CompareArray.java
+    │   ├── EliminateDuplicate.java
+    │   ├── MinMaxNum.java
     │   ├── SortArray.java
-    │   └── SumOfElements.java
+    │   └── SumofElements.java
     │
     ├── numbers/
     │   ├── Fibonacci.java
     │   ├── PrimeNumber.java
-    │   ├── PrintMultiplicationTable.java
+    │   ├── PrintMultiplication.java
     │   └── SwapVariables.java
     │
-    └── patterns/
-        └── TestPyramid.java
+    ├── patterns/
+    │   └── TestPyramid.java
+    │
+    └── Strings/
+        └── ReverseString.java
 ```
 
 ---
 
 ## 💻 Programs Included
 
-| # | Program              | Category |
-| - | -------------------- | -------- |
-| 1 | Adjacent Array       | Arrays   |
-| 2 | Compare Arrays       | Arrays   |
-| 3 | Sort Array           | Arrays   |
-| 4 | Sum of Elements      | Arrays   |
-| 5 | Fibonacci Series     | Numbers  |
-| 6 | Prime Number         | Numbers  |
-| 7 | Multiplication Table | Numbers  |
-| 8 | Swap Variables       | Numbers  |
-| 9 | Pyramid Pattern      | Patterns |
+| # | Program | Category |
+| - | ------- | -------- |
+| 1 | Adjacent Array | Arrays |
+| 2 | Compare Arrays | Arrays |
+| 3 | Eliminate Duplicate | Arrays |
+| 4 | Min and Max Number | Arrays |
+| 5 | Sort Array | Arrays |
+| 6 | Sum of Elements | Arrays |
+| 7 | Fibonacci Series | Numbers |
+| 8 | Prime Number | Numbers |
+| 9 | Multiplication Table | Numbers |
+| 10 | Swap Variables | Numbers |
+| 11 | Reverse String | Strings |
+| 12 | Pyramid Pattern | Patterns |
 
 ---
-
 ## 🛠️ Technologies and Concepts
 
 * Java

@@ -1,20 +1,29 @@
 import java.util.ArrayList;
 
 public class CompareArray {
-    //compare same indexes of 2 different arrays and create another array of matching values
-    public static void main(String[] args){
-        int a[] = {1,4,5,7};
-        int b[] = {6,4,3,7}; //{4,7}
-        ArrayList<Integer>al = new ArrayList<Integer>();
-        for(int i=0;i<a.length;i++){
-            if(a[i]==b[i]){
-                //code to create another array
+
+    // Compare same indexes of 2 different arrays
+    // and create another array of matching values
+
+    public static void main(String[] args) {
+
+        int a[] = {1, 4, 5, 7};
+        int b[] = {6, 4, 3, 7}; // Matching values: {4, 7}
+
+        ArrayList<Integer> al = new ArrayList<Integer>();
+
+        for (int i = 0; i < Math.min(a.length, b.length); i++) {
+
+            if (a[i] == b[i]) {
+                // Add matching value to ArrayList
                 al.add(a[i]);
             }
         }
-        Object[] c= al.toArray();
-        for(Object obj: c){
-            System.out.println(obj);
+
+        Integer[] c = al.toArray(new Integer[0]);
+
+        for (int value : c) {
+            System.out.println("Matching value: " + value);
         }
     }
 }

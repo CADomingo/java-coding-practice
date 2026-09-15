@@ -1,32 +1,33 @@
 public class SwapVariables {
-public static void main(String[] args) {
 
-    // Method 1: Using a temporary variable
-    // Basket A: Apple → Empty → Orange
-    // Basket B: Orange → Empty → Apple
-    // Basket C: Empty → Apple → Empty
+    public static void main(String[] args) {
 
-    int a = 4;
-    int b = 6;
-    int temp;
+        // Method 1: Using a temporary variable
+        // Basket A: Apple → Empty → Orange
+        // Basket B: Orange → Empty → Apple
+        // Basket C: Empty → Apple → Empty
 
-    temp = a;
-    a = b;
-    b = temp;
+        int a = 4;
+        int b = 6;
+        int temp;
 
-    System.out.println(a);
-    System.out.println(b);
+        temp = a;
+        a = b;
+        b = temp;
 
-    // Method 2: Without using a temporary variable
+        System.out.println("Value of a after swapping: " + a);
+        System.out.println("Value of b after swapping: " + b);
 
-    int c = 5;
-    int d = 4;
+        // Method 2: Without using a temporary variable
 
-    c = c + d; // c = 9
-    d = c - d; // d = 5
-    c = c - d; // c = 4
+        int c = 5;
+        int d = 4;
 
-    System.out.println(c);
-    System.out.println(d);
-}
+        c = c + d; // c = 9
+        d = c - d; // d = 5
+        c = c - d; // c = 4
+
+        System.out.println("Value of c after swapping: " + c);
+        System.out.println("Value of d after swapping: " + d);
+    }
 }
