@@ -34,7 +34,7 @@ This repository is maintained to:
 * Swap Variables
 
 ### Strings
-* Reverse String
+* Reverse And Check Palindrome
 
 ### Patterns
 * Pyramid Pattern
@@ -86,7 +86,7 @@ java-coding-practice/
 | 8 | Prime Number | Numbers |
 | 9 | Multiplication Table | Numbers |
 | 10 | Swap Variables | Numbers |
-| 11 | Reverse String | Strings |
+| 11 | Reverse And Check Palindrome | Strings |
 | 12 | Pyramid Pattern | Patterns |
 
 ---
