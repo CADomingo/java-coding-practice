@@ -1,6 +1,6 @@
 package Strings;
 
-public class ReverseString {
+public class ReverseAndCheckPalindrome {
 
     public static void main(String[] args) {
 
